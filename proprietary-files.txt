@@ -1,2 +1,6 @@
+# Media - from RMX2001_11_B.41
+vendor/lib/libdpframework.so:product/vendor_overlay/29/lib/libdpframework.so|67e2c26a727efbe7da159919957c6d9081ba21dc
+vendor/lib64/libdpframework.so:product/vendor_overlay/29/lib64/libdpframework.so|4c00f544f1764c796a916f2c8e7aae46d0d43e09
+
 # Media - from RMX2001_11_B.49
 vendor/lib/libvpud_vcodec.so:product/vendor_overlay/29/lib/libvpud_vcodec.so|a040fa35b7f4eef98197e2fded6fc71018408a8a
