@@ -21,6 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile
 $(call inherit-product, device/realme/mt6785-common/mt6785.mk)
 
+# Call proprietary blob setup
+$(call inherit-product, vendor/realme/RMX2001/RMX2001-vendor.mk)
+
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
