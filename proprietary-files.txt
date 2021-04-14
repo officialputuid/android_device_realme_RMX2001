@@ -1,3 +1,6 @@
+# Camera - from RMX2001_11.B.31
+vendor/lib64/libcameracustom.so:product/vendor_overlay/29/lib64/libcameracustom.so|f43b592672b43ff373b16292f3738dff2b355f3f
+
 # Media - from RMX2001_11_B.41
 vendor/lib/libdpframework.so:product/vendor_overlay/29/lib/libdpframework.so|67e2c26a727efbe7da159919957c6d9081ba21dc
 vendor/lib64/libdpframework.so:product/vendor_overlay/29/lib64/libdpframework.so|4c00f544f1764c796a916f2c8e7aae46d0d43e09
