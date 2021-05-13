@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RMX2001.mk
+    $(LOCAL_DIR)/nad_RMX2001.mk
