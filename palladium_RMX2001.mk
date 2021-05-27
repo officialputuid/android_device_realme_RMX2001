@@ -24,14 +24,37 @@ $(call inherit-product, device/realme/mt6785-common/mt6785.mk)
 # Call proprietary blob setup
 $(call inherit-product, vendor/realme/RMX2001/RMX2001-vendor.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Palladium stuff.
+$(call inherit-product, vendor/palladium/config/common_full_phone.mk)
+
+# Palladium stuff
+PALLADIUM_BUILDTYPE := OFFICIAL
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Build with GApps
+PALLADIUM_BUILD_VARIANT := GAPPS
+TARGET_GAPPS_ARCH := arm64
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ARCORE := true
+
+# True - OnePlus Launcher as default launcher
+# Remove - Lawnchair as default launcher
+WITH_OPAPPS=true
+
+# Palladium props
+PRODUCT_PRODUCT_PROPERTIES += \
+        ro.palladiumdevice.maintainer=officialputuid \
+        ro.palladiumdevice.cpu=MT6785 \
+        ro.palladiumdevice.display=6.5 \
+        ro.palladiumdevice.displaytype=IPS LCD \
+        ro.palladiumdevice.battery=4300mAh \
+        ro.palladiumdevice.camera=64MP+8MP+2MP+2MP
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_RMX2001
+PRODUCT_NAME := palladium_RMX2001
 PRODUCT_DEVICE := RMX2001
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := Realme G90T Series
+PRODUCT_MODEL := Realme 6
 PRODUCT_MANUFACTURER := realme
 
 # Build info
