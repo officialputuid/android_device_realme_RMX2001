@@ -18,7 +18,7 @@ $(call inherit-product, vendor/realme/RMX2001/RMX2001-vendor.mk)
 $(call inherit-product, vendor/palladium/config/common_full_phone.mk)
 
 # Palladium stuff
-PALLADIUM_BUILDTYPE := OFFICIAL
+PALLADIUM_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Build with GApps
