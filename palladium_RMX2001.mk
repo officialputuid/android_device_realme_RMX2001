@@ -22,10 +22,12 @@ PALLADIUM_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Build with GApps
+ifeq ($(with_gapps), yes)
 TARGET_GAPPS_ARCH := arm64
 PALLADIUM_BUILD_VARIANT := GAPPS
 TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_SUPPORTS_GOOGLE_RECORDER := false 
+endif
 
 # True - OnePlus Launcher as default launcher
 # Remove - Lawnchair as default launcher
