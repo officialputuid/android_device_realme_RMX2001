@@ -1,0 +1,28 @@
+[
+    {
+        "remote": "github",
+        "repository": "officialputuid/android_device_realme_mt6785-common",
+        "target_path": "device/realme/mt6785-common",
+    },
+    {
+        "remote": "github",
+        "repository": "officialputuid/proprietary_vendor_realme",
+        "target_path": "vendor/realme",
+    },
+    {
+        "remote": "github",
+        "repository": "officialputuid/android_kernel_realme_RMX2001",
+        "target_path": "kernel/realme/RMX2001",
+        "clone-depth": "1",
+    },
+    {
+        "remote": "github",
+        "repository": "officialputuid/android_packages_apps_RealmeParts",
+        "target_path": "packages/apps/RealmeParts",
+    },
+    {
+        "remote": "github",
+        "repository": "officialputuid/android_packages_apps_RealmeDirac",
+        "target_path": "packages/apps/RealmeDirac",
+    }
+]
