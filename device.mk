@@ -4,3 +4,7 @@ $(call inherit-product, device/realme/mt6785-common/mt6785.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
+
+# NusantaraPapers
+PRODUCT_PACKAGES += \
+    NusantaraPapers
