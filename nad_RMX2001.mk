@@ -29,10 +29,10 @@ PRODUCT_MODEL := Realme G90T Series
 PRODUCT_MANUFACTURER := realme
 
 # Build info
-BUILD_FINGERPRINT := "realme/RMX2001/RMX2001L1:10/QP1A.190711.020/1594211000:user/release-keys"
+BUILD_FINGERPRINT := "alps/sys_oplus_mssi_64_cn/oplus_mssi_64_cn:11/RP1A.200720.011/1607914664672:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=RMX2001 \
     PRODUCT_NAME=RMX2001 \
-    PRIVATE_BUILD_DESC="full_oppo6785-user 10 QP1A.190711.020 0b36b6c4f9b3bf3b release-keys"
+    PRIVATE_BUILD_DESC="sys_oplus_mssi_64_cn-user 11 RP1A.200720.011 1607914664672 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
